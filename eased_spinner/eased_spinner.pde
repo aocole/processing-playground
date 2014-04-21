@@ -26,7 +26,7 @@ void draw() {
 }
 
 // takes a number between 0 and 1 representing the portion of the
-// way through the sequence, and oscillates between 0 and 1 linealy
+// way through the sequence, and oscillates between 0 and 1 linearly
 float oscillate(float portion) {
   return abs(0.5 - portion) * 2;
 }
